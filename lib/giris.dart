@@ -11,10 +11,10 @@ class _GirisState extends State<Giris> {
   TextEditingController t1 = TextEditingController();
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp( // Ana kapsayıcı widget tanımladım
       debugShowCheckedModeBanner: false,
       title: 'Gezi Rehberi',
-      theme: ThemeData(
+      theme: ThemeData( // Uygulamanın genel temasını belirledim
           primarySwatch: Colors.brown,
           accentColor: Colors.brown[600]),
       home: Scaffold(
@@ -38,7 +38,7 @@ class LoginHome extends StatelessWidget {
 Widget _LoginHome (BuildContext context) {
   final Giris = TextField( // ignore: non_constant_identifier_names
     obscureText: false,
-    decoration: InputDecoration(
+    decoration: InputDecoration( // Metin alanının nasıl görünmesi gerektiği komutları verdim
         contentPadding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
         hintText: "Adınızı Giriniz",
         border:
@@ -46,16 +46,16 @@ Widget _LoginHome (BuildContext context) {
     ),
   );
 
-  final loginButton = Material(
+  final loginButton = Material( //Kenar, şekil gibi verebileceğimiz özellikleri belirledim
     elevation: 5.0,
-    borderRadius: BorderRadius.circular(30.0),
+    borderRadius: BorderRadius.circular(30.0), // yuvarlak kenar özelliği
     color: Colors.brown[300],
-    child: MaterialButton(
+    child: MaterialButton( // Buton oluşturdum
       minWidth: MediaQuery
           .of(context)
           .size
           .width,
-      padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
+      padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0), // iç ve dıştan olan boşlukları belirledim
       onPressed: () {
         Navigator.push(context,
             MaterialPageRoute(builder: (context) => Anasayfa()));
@@ -100,7 +100,7 @@ Widget _LoginHome (BuildContext context) {
 
             Image.asset("android/images/kapak.jpg"),
 
-            SizedBox(height: 10.0),
+            SizedBox(height: 10.0), //Sabit boyutlu bir kutu tanımladım
             Giris,
             SizedBox(height: 15.0),
             loginButton,

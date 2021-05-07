@@ -21,14 +21,14 @@ class Anasayfa extends StatefulWidget {
 class _AnasayfaState extends State<Anasayfa> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( // dizayn yapısını uygulamak için verilmiş komut
         backgroundColor: Colors.brown,
-        appBar: AppBar(
+        appBar: AppBar( // Sayfa üst barını yani anasayfa yazdırmak istediğim kısım
           backgroundColor: Colors.white60,
           centerTitle: true,
-          title: Text(
+          title: Text( // Tüm metne tek bir stil vermek için text wigdet kullandım
             'Anasayfa',
-            style: TextStyle(
+            style: TextStyle( // Metnin özelliklerini tanıması için bir widget kullandım
               color: Colors.brown,
               fontFamily: 'BlackOpsOne',
               fontSize: 30,
@@ -36,15 +36,15 @@ class _AnasayfaState extends State<Anasayfa> {
           ),
         ),
 
-        body: SingleChildScrollView(
-            child: Column(children: <Widget>[
-              Container(
+        body: SingleChildScrollView( // Sayfanın kaydırılabilir olması
+            child: Column(children: <Widget>[ // Yukarıdan aşağıya hizalamak
+              Container( // Nesneleri yerleştirdiğimiz kutu
                 margin: EdgeInsets.all(25),
                 // ignore: deprecated_member_use
-                child: FlatButton(
+                child: FlatButton( // buton üzerindeki yazı
                   child: Text(
                     '                              İZMİR                                 ',
-                    style: TextStyle(fontSize: 20.0),
+                    style: TextStyle(fontSize: 20.0), // metin özellikleri
                   ),
                   color: Colors.white60,
                   textColor: Colors.brown,
