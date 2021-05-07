@@ -25,7 +25,7 @@ class _izmirState extends State<izmir> {
             ),
           ),
         ),
-      body: Center(
+      body: SingleChildScrollView(
         child: Text(
           'Türkiye’nin üçüncü büyük şehri olan İzmir, çağdaş, gelişmiş, ayni zamanda işlek bir ticaret merkezidir. İzmir de küçük bir tura başladığınızda öncelikleriniz kesinlikle bunlar olmalıdır. Saat Kulesinde fotoğraf çekinin İzmirin sembollerinden biri İzmirin Konak ilçesinde bulunuyor, Kordon da gün batımını seyredin, Türkiyenin ilk sakin kenti olarak bilinen seferihisarı keşfedin, Kemeraltı çarşısında kaybolun Konak ilçesinde yer alan bu çarşı şehrin tarihi alışveriş noktalarından biri hazır buraya gelmişken midyeciler sokağına girmeyi asla unutmayın, Tarihi yapılarrıyla sizi geçmişe götürecek olan agora müzesini ziyaret edin, Meyve şaraplarıyla minik göz alıcı evleriyle bilinen şirinceyi ziyaret edin, Tarihi asansörde izmiri seyredin, Alaçatı sokaklarında kaybolun hazır alaçatıya gitmişken rüzgar sörfünü mutlaka deneyin, İzmirin manzarasını seyretmek için ikinci bir seçenek teleferik gezisine çıkın, Bunun gibi sayabileceğimiz ve bu çalışmanın sonunda daha geniş yelpazede anlatacağımız İzmiri mutlaka takipte kalınız ',
           style: TextStyle(
