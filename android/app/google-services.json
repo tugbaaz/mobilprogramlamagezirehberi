@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "723225831659",
+    "project_id": "gezi-rehberi-6ac2c",
+    "storage_bucket": "gezi-rehberi-6ac2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723225831659:android:115f52b910cf44c7bdb6ae",
+        "android_client_info": {
+          "package_name": "com.piteknoloji.gezirehberi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723225831659-2r7ova8avsc00q4ll9b8u4f3ado29l90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw__cEgpjuFW_vd3qatcDxVU30Ko5NNcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723225831659-2r7ova8avsc00q4ll9b8u4f3ado29l90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

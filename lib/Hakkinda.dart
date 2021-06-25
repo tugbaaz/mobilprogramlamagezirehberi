@@ -24,7 +24,7 @@ class _HakkindaState extends State<Hakkinda> {
       ),
       body: Center(
         child: Text(
-          'Bu uygulama Dr. Öğretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen 3006881 kodlu MOBİL PROGRAMLAMA dersi kapsamında 173006024 numaralı Tuğba AZ tarafından 17.04.2021 günü yapılmıştır',
+          'Bu uygulama Dr. Öğretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen 3006881 kodlu MOBİL PROGRAMLAMA dersi kapsamında 173006024 numaralı Tuğba AZ tarafından 30.04.2021 günü yapılmıştır',
           style: TextStyle(
             fontFamily: 'DelaGothicOne',
             fontSize: 20,
