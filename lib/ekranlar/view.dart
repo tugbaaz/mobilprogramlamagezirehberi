@@ -40,7 +40,7 @@ class _PostViewState extends State<PostView> {
                 icon: Icon(
                   Icons.delete,
                 ),
-                color: Colors.red,
+                color: Colors.brown,
                 onPressed: () {
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(
@@ -98,7 +98,7 @@ class _PostViewState extends State<PostView> {
                         ),
                         Padding(
                           padding: const EdgeInsets.all(10.0),
-                          child: new Text('Öğrenci Yorumu : ',
+                          child: new Text('Gezgin Yorumu : ',
                               style: new TextStyle(
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.normal,
